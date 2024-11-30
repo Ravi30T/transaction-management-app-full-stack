@@ -35,37 +35,36 @@
 .new-transaction-btn {
     border: none;
     outline: none;
-    border-radius: 8px; /* Soft rounded corners for a modern look */
-     /* Adjusted width for better proportion */
-    height: 45px; /* Slightly taller button for more emphasis */
-    background: linear-gradient(135deg, #3498db, #2980b9); /* Blue gradient background */
+    border-radius: 8px; 
+    height: 45px; 
+    background: linear-gradient(135deg, #3498db, #2980b9);
     color: white;
     font-weight: 600;
-    font-size: 14px; /* Slightly larger font size for readability */
+    font-size: 14px; 
     cursor: pointer;
     display: flex;
     align-items: center;
     justify-content: center;
-    text-transform: uppercase; /* Makes the button text more formal */
-    transition: all 0.3s ease; /* Smooth transition for all hover effects */
-    box-shadow: 0px 4px 8px rgba(52, 152, 219, 0.3); /* Subtle shadow for depth */
+    text-transform: uppercase;
+    transition: all 0.3s ease; 
+    box-shadow: 0px 4px 8px rgba(52, 152, 219, 0.3); 
     padding: 5px;
 }
 
 .new-transaction-btn:hover {
-    background: linear-gradient(135deg, #2980b9, #3498db); /* Reverse gradient on hover */
-    transform: translateY(-4px); /* Lift effect on hover */
-    box-shadow: 0px 6px 12px rgba(52, 152, 219, 0.4); /* Stronger shadow on hover */
+    background: linear-gradient(135deg, #2980b9, #3498db);
+    transform: translateY(-4px); 
+    box-shadow: 0px 6px 12px rgba(52, 152, 219, 0.4); 
 }
 
 .new-transaction-btn:active {
-    transform: translateY(0); /* Reset lift effect on click */
-    box-shadow: 0px 4px 8px rgba(52, 152, 219, 0.3); /* Reset shadow on click */
+    transform: translateY(0);
+    box-shadow: 0px 4px 8px rgba(52, 152, 219, 0.3);
 }
 
 .new-transaction-btn:focus {
-    outline: none; /* Remove default focus outline */
-    box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.5); /* Glow effect on focus */
+    outline: none; 
+    box-shadow: 0px 0px 8px rgba(52, 152, 219, 0.5); 
 }
 
 
