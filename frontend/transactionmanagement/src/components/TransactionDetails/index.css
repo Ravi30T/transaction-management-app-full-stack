@@ -1,22 +1,21 @@
-/* Main Container */
+
 .transaction-details-main-container {
     padding: 20px;
-    background-color: #f8fafc; /* Light background for page */
+    background-color: #f8fafc; 
     min-height: 100vh;
     display: flex;
     flex-direction: column;
     align-items: center;
-    justify-content: flex-start; /* Adjust content alignment to start */
+    justify-content: flex-start;
   }
   
-  /* Transaction Details Container */
   .transaction-details-container {
     width: 90%;
     max-width: 600px;
     padding: 25px;
     background: #ffffff;
-    border: 1px solid #e5e7eb; /* Subtle border */
-    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); /* Clean shadow */
+    border: 1px solid #e5e7eb; 
+    box-shadow: 0 8px 15px rgba(0, 0, 0, 0.1); 
     border-radius: 12px;
     font-family: 'Roboto', sans-serif;
     line-height: 1.6;
@@ -28,28 +27,28 @@
     box-shadow: 0 12px 25px rgba(0, 0, 0, 0.15);
   }
   
-  /* Heading */
+
   .transaction-details-container h1 {
     font-size: 28px;
-    color: #1f2937; /* Darker text */
+    color: #1f2937; 
     text-align: center;
     margin-bottom: 25px;
     border-bottom: 2px solid #e5e7eb;
     padding-bottom: 10px;
   }
   
-  /* Text */
+
   .transaction-details-container p {
     font-size: 18px;
-    color: #374151; /* Neutral text color */
+    color: #374151; 
     margin: 15px 0;
   }
   
   .transaction-details-container p strong {
-    color: #111827; /* Bold strong text */
+    color: #111827; 
   }
   
-  /* Status and Type Badges */
+
   .status,
   .type {
     display: inline-block;
@@ -60,34 +59,31 @@
     text-transform: capitalize;
   }
   
-  /* Status Colors */
   .status-pending {
-    background-color: #fef3c7; /* Yellow background */
-    color: #b45309; /* Yellow text */
+    background-color: #fef3c7; 
+    color: #b45309; 
   }
   
   .status-completed {
-    background-color: #d1fae5; /* Green background */
-    color: #065f46; /* Green text */
+    background-color: #d1fae5; 
+    color: #065f46; 
   }
   
   .status-failed {
-    background-color: #fee2e2; /* Red background */
-    color: #b91c1c; /* Red text */
+    background-color: #fee2e2; 
+    color: #b91c1c; 
   }
   
-  /* Type Colors */
   .type-deposit {
-    background-color: #e0f2fe; /* Blue background */
-    color: #0369a1; /* Blue text */
+    background-color: #e0f2fe; 
+    color: #0369a1; 
   }
   
   .type-withdraw {
-    background-color: #fef2f2; /* Light red background */
-    color: #c53030; /* Red text */
+    background-color: #fef2f2;
+    color: #c53030;
   }
   
-  /* Back Button */
   .back-btn-container {
     display: flex;
     justify-content: center;
@@ -98,7 +94,7 @@
     border: none;
     outline: none;
     padding: 10px 20px;
-    background-color: #3b82f6; /* Vibrant blue */
+    background-color: #3b82f6;
     color: #ffffff;
     font-size: 16px;
     font-weight: 600;
@@ -108,18 +104,16 @@
   }
   
   .back-to-dashboard-btn:hover {
-    background-color: #2563eb; /* Darker blue on hover */
+    background-color: #2563eb;
   }
   
-  /* Error Message */
   .transaction-details-err-msg {
     text-align: center;
     font-size: 18px;
-    color: #b91c1c; /* Red for errors */
+    color: #b91c1c;
     margin-bottom: 20px;
   }
   
-  /* Loader Container */
   .loader-container {
     display: flex;
     justify-content: center;
@@ -127,13 +121,10 @@
     height: 70vh;
   }
   
-  /* Responsive Design */
-  
-  /* Mobile View - max-width: 767px */
   @media (max-width: 767px) {
     .transaction-details-main-container {
-      justify-content: flex-start; /* Fix the alignment */
-      padding-top: 50px; /* Adjust top padding to ensure it’s not stuck to top */
+      justify-content: flex-start;
+      padding-top: 50px;
     }
   
     .transaction-details-container {
@@ -155,7 +146,6 @@
     }
   }
   
-  /* Desktop View - min-width: 768px */
   @media (min-width: 768px) {
     .transaction-details-container {
       padding: 35px;
