@@ -1,19 +1,19 @@
-/* Scoped Profile Styles */
+
 .profile-container {
     max-width: 600px;
     margin: 50px auto;
-    background-color: #ffffff; /* Card background */
-    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); /* Soft shadow for a clean look */
+    background-color: #ffffff; 
+    box-shadow: 0px 8px 20px rgba(0, 0, 0, 0.1); 
     border-radius: 12px;
     padding: 30px;
     text-align: center;
-    overflow: hidden; /* To ensure clean edges */
+    overflow: hidden; 
 }
 
 .profile-container h1 {
     font-size: 2rem;
     font-weight: 700;
-    color: #1f2937; /* Strong dark heading */
+    color: #1f2937;
     margin-bottom: 20px;
     position: relative;
 }
@@ -22,7 +22,7 @@
     content: '';
     width: 80px;
     height: 3px;
-    background: linear-gradient(90deg, #3b82f6, #06b6d4); /* Blue gradient for modern touch */
+    background: linear-gradient(90deg, #3b82f6, #06b6d4); 
     position: absolute;
     bottom: -5px;
     left: 50%;
@@ -40,14 +40,14 @@
     display: flex;
     justify-content: space-between;
     padding: 15px 20px;
-    background-color: #f9fafb; /* Light gray card-like rows */
+    background-color: #f9fafb; 
     border-radius: 8px;
-    border: 1px solid #e5e7eb; /* Subtle border for card separation */
+    border: 1px solid #e5e7eb;
     box-shadow: inset 0px 1px 3px rgba(0, 0, 0, 0.05);
 }
 
 .profile-container .profile-details strong {
-    color: #111827; /* High contrast for key information */
+    color: #111827;
     font-weight: 600;
 }
 
@@ -71,7 +71,7 @@
     padding: 12px 25px;
     border-radius: 8px;
     font-size: 1rem;
-    background: linear-gradient(90deg, #3b82f6, #06b6d4); /* Gradient for modern buttons */
+    background: linear-gradient(90deg, #3b82f6, #06b6d4);
     color: #ffffff;
     font-weight: 600;
     cursor: pointer;
@@ -88,22 +88,20 @@
     justify-content: center;
 }
 
-/* Styles for positive balance */
 .account-balance {
     font-size: 1.5rem;
     font-weight: 700;
-    color: #059669; /* Positive green tone */
-    border: 2px solid #10b981; /* Green border */
+    color: #059669; 
+    border: 2px solid #10b981; 
     padding: 10px 20px;
     border-radius: 8px;
     text-align: center;
     margin: 20px auto;
 }
 
-/* Styles for zero balance */
 .red-balance {
-    color: #b91c1c; /* Red text */
-    border-color: #b91c1c; /* Red border */
+    color: #b91c1c;
+    border-color: #b91c1c; 
 }
 
 .loader-container {
@@ -119,9 +117,6 @@
     height: 30px !important;
 }
 
-/* Responsive Design */
-
-/* For wider screens */
 @media (min-width: 768px) {
     .profile-container {
         max-width: 800px;
@@ -138,7 +133,6 @@
     }
 }
 
-/* For smaller screens */
 @media (max-width: 767px) {
     .profile-container {
         margin: 20px;
