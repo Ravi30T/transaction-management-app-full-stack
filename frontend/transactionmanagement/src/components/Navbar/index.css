@@ -1,5 +1,5 @@
 * {
-    font-family: 'Roboto', sans-serif; /* Clean, modern font */
+    font-family: 'Roboto', sans-serif; 
     margin: 0;
     padding: 0;
     box-sizing: border-box;
@@ -9,8 +9,8 @@
     display: flex;
     align-items: center;
     justify-content: space-between;
-    background-color: #2c3e50; /* Dark background color */
-    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); /* Soft shadow for depth */
+    background-color: #2c3e50; 
+    box-shadow: 0px 6px 12px rgba(0, 0, 0, 0.15); 
     padding-top: 5px;
     padding-bottom: 5px;
 }
@@ -19,14 +19,14 @@
     font-size: 22px;
     font-weight: 600;
     padding: 6px 18px;
-    color: #ecf0f1; /* Light text for better contrast */
-    background-color: #34495e; /* Slightly lighter background */
+    color: #ecf0f1; 
+    background-color: #34495e; 
     border-radius: 5px;
     transition: background-color 0.3s ease;
 }
 
 .app-name:hover {
-    background-color: #1abc9c; /* Greenish color on hover */
+    background-color: #1abc9c;
 }
 
 .logo-link-item {
@@ -48,36 +48,34 @@
     transition: all 0.3s ease;
 }
 
-/* Logout Button Style */
+
 .logout-btn {
-    background: linear-gradient(135deg, #e74c3c, #c0392b); /* Gradient for modern look */
+    background: linear-gradient(135deg, #e74c3c, #c0392b); 
     color: white;
 }
 
 .logout-btn:hover {
-    background: linear-gradient(135deg, #c0392b, #e74c3c); /* Reverse gradient on hover */
-    transform: translateY(-3px); /* Lift effect */
+    background: linear-gradient(135deg, #c0392b, #e74c3c); 
+    transform: translateY(-3px); 
 }
 
 .logout-btn:active {
-    transform: translateY(0); /* Reset transform on active state */
+    transform: translateY(0); 
 }
 
-/* Profile Button Style */
 .profile-btn {
-    background: linear-gradient(135deg, #27ae60, #2ecc71); /* Gradient for fresh look */
+    background: linear-gradient(135deg, #27ae60, #2ecc71);
     color: white;
     margin-right: 10px;
     text-decoration: none;
 }
 
 .profile-btn:hover {
-    background: linear-gradient(135deg, #2ecc71, #27ae60); /* Reverse gradient on hover */
-    transform: translateY(-3px); /* Lift effect */
-}
+    background: linear-gradient(135deg, #2ecc71, #27ae60); 
+    transform: translateY(-3px); 
 
 .profile-btn:active {
-    transform: translateY(0); /* Reset transform on active state */
+    transform: translateY(0); 
 }
 
 .logout-profile-btn-container {
@@ -90,10 +88,10 @@
 
 @media (max-width: 767px) {
     .app-name {
-        font-size: 16px; /* Adjust font size for mobile */
+        font-size: 16px; 
     }
     .nav-container {
-        padding: 10px; /* Reduced padding for smaller screens */
+        padding: 10px; 
     }
 
     .logout-btn, .profile-btn {
@@ -103,7 +101,7 @@
 
 @media(min-width: 768px){
     .nav-container {
-       padding: 10px; /* Adjusted padding for better balance */
+       padding: 10px;
        height: 55px;
     }
 
